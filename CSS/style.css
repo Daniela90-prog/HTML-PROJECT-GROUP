@@ -1,8 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
-
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedorpag{
+    background-color: rgb(18,18,22);
+}
 
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
+    color: white;
+    align-items: center;
+    background-color: rgb(18,18,22);
 }
+
+.logo{
+    display: inline-block;
+    position: absolute;
+    margin:20px;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;}
+
+.login-form{
+    margin:3%;
+    background-color: rgb(18,18,22);
+}
+    /* RGB(239 84 102) */
+
+.buttons{
+    position: absolute; 
+    top: 0%;
+    left: 800px;
+    margin: 2%;
+    background-color: rgb(18,18,22);
+    transform: translate(-70%, -2%);
+    padding: 30px;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-family:'Roboto', sans-serif ;
+    color: #fff;
+}
+
+.buttons a:hover{
+    color:RGB(239 84 102) ;
+}
+
+
+.buttons_btn{
+    position: absolute; 
+    display: block;
+    text-align: center;
+    top: 0%;
+    left: 900px;
+    margin: 3%;
+    background-color: rgb(18,18,22);
+    padding: 13px 20px;
+    border: 1px solid #fff;
+    border-radius: 10rem;
+    transition: all 2s ease;
+}
+
+.buttons_btn a{
+    text-decoration: none;
+    font-family:'Roboto', sans-serif ;
+    color: #fff;
+}
+
+.buttons_btn :hover{
+    background-color: #eee;
+}
+
+.buttons_btn2{
+    position: absolute; 
+    display: block;
+    text-align: center;
+    top: 0%;
+    left: 1090px;
+    margin: 3%;
+    background-color: RGB(239 84 102);
+    padding: 13px 20px;
+    border: 1px solid #fff;
+    transition: all 2s ease;
+    border-radius: 10rem;
+}
+
+.buttons_btn2 a{
+    text-decoration: none;
+    font-family:'Roboto', sans-serif ;
+    color: #fff;
+}
+
+.buttons_btn2 :hover{
+    background-color: #ccc
+}
+
+
+.contenedor{
+    background-color: rgb(18,18,22);
+    padding:60px;
+    width: 90;
+    max-width: 600px;
+    margin:auto;
+    overflow: hidden;
+}
+
+
