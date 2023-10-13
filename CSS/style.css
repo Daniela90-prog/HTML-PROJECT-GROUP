@@ -7,9 +7,8 @@
 body{
     font-family: 'roboto', sans-serif;
     color: white;
-    background-color: rgb(18, 18, 22);
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    background-color: rgb(18,18,22);
 }
 
 .logo{
@@ -22,14 +21,16 @@ body{
     height: 100px;}
 
 .login-form{
-    margin:3%;
+    margin:1%;
+    margin-right: 90%;
     background-color: rgb(18,18,22);
 }
+    /* RGB(239 84 102) */
 
 .buttons{
     position: absolute; 
     top: 0%;
-    left: 800px;
+    left: 1370px;
     margin: 2%;
     background-color: rgb(18,18,22);
     transform: translate(-70%, -2%);
@@ -49,18 +50,19 @@ body{
     color:RGB(239 84 102) ;
 }
 
+
 .buttons_btn{
     position: absolute; 
     display: block;
     text-align: center;
     top: 0%;
-    left: 900px;
+    left: 1450px;
     margin: 3%;
     background-color: rgb(18,18,22);
     padding: 13px 20px;
     border: 1px solid #fff;
     border-radius: 10rem;
-    transition: all 2s ease;
+    
 }
 
 .buttons_btn a{
@@ -78,12 +80,15 @@ body{
     display: block;
     text-align: center;
     top: 0%;
-    left: 1090px;
+    left: 1630px;
     margin: 3%;
     background-color: RGB(239 84 102);
     padding: 13px 20px;
     border: 1px solid #fff;
     border-radius: 10rem;
+}
+.buttons_btn2 :hover{
+    background-color: #fff;
 }
 
 .buttons_btn2 a{
@@ -92,9 +97,7 @@ body{
     color: #fff;
 }
 
-.buttons_btn2 :hover{
-    background-color: #ccc
-}
+
 
 .contenedorpag{
     background-color: rgb(18, 18, 22);
@@ -736,4 +739,86 @@ footer {  border-top: 1px solid #32323d;
     margin:350px;
 }
 
+.parrafo-fn {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 4.5%;
+    width: 600px;
+    height: 500px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 2.0;
+}
+
+footer {  
+    border-top: 1px solid #32323d;
+    padding: 64px 90px 117px;  text-align: left;
+  }
+
+  .buttons_btn3, .buttons_btn4 {
+    max-width: 100%;
+    margin: 0 auto; 
+    margin-left: 500px;
+    margin-right: 0%;
+}
+
+.container-table{
+    max-width: 100%;
+    margin: 0 auto;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+table{
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px 30px;
+    font-weight: 700px;
+    color: #a2a2a2;
+}
+
+td{
+    padding: 10px 30px;
+    border-bottom: solid 1px rgb(18,18,22);
+}
+
+.ft {
+    align-items: center;
+    display: flex;
+    margin-right: 0;
+}
+
+
+.last_footer a{
+    color: #fff;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 22px;
+    margin: 13px;
+}
+
+.logo_final{
+    display:flex;
+    grid-template-rows: 50px;
+}
+.imagen{
+    max-width: 100%;
+    margin: 0 auto; 
+    margin-left: 500px;
+    margin-right: 0%;
+    width: 230px;
+    height: 120px;
+    display: flex;
+}
+
+
+.icono img{
+    color: #fff;
+}
 
